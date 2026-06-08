@@ -36,14 +36,14 @@ public class TemperatureConverter {
                 if (unit.equalsIgnoreCase("C")) {
                     double converted = convertTemperature(temperature, unit);
 
-                    System.out.printf("%.2f°C is equal to %.2f°F%n",
+                   System.out.printf("%.2f C is equal to %.2f F%n",
                             temperature, converted);
                 }
                 else if (unit.equalsIgnoreCase("F")) {
                     double converted = convertTemperature(temperature, unit);
 
-                    System.out.printf("%.2f°F is equal to %.2f°C%n",
-                            temperature, converted);
+                 System.out.printf("%.2f F is equal to %.2f C%n",
+                        temperature, converted);
                 }
                 else {
                     System.out.println("Error: Invalid unit. Enter C or F.");
